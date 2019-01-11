@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         /**
-         * database ref
+         * lynford a. lagondi
          */
         databaseReference = FirebaseDatabase.getInstance().getReference("students");
 
@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                /**
+                 * button
+                 */
                 clickMe();
             }
         });
